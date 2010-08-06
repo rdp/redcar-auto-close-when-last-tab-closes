@@ -1,0 +1,4 @@
+1281057966
+Redcar	C:/Users/packrd/.redcar/plugins/redcar-auto-close/lib/save_all_on_lose_focus.rb	module Redcar
+SaveAllOnLoseFocus2	C:/Users/packrd/.redcar/plugins/redcar-auto-close/lib/save_all_on_lose_focus.rb	  class SaveAllOnLoseFocus2
+sensitivities	C:/Users/packrd/.redcar/plugins/redcar-auto-close/lib/save_all_on_lose_focus.rb	    def self.sensitivities
