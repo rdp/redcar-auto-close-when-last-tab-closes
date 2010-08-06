@@ -8,7 +8,7 @@ module Redcar
         p 'got new window..'
         win.add_listener(:tab_closed) do
           if Redcar.app.focussed_window.all_tabs.length == 0
-             Redcar.app.focussed_window.close
+             Redcar::Top::CloseWindowCommand.new.run(Redcar.app.focussed_window)
           end
         end
       end
